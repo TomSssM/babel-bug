@@ -1,0 +1,26 @@
+{
+  "name": "babel-bug",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Bug in babel plugin",
+  "scripts": {
+    "build": "babel src/index.ts --out-file build/index.js"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.13.9",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.13.0",
+    "@babel/core": "7.13.8",
+    "@babel/preset-typescript": "7.13.0",
+    "@types/lodash": "4.14.149",
+    "babel-plugin-import": "1.13.3"
+  },
+  "keywords": [
+    "babel",
+    "bug"
+  ],
+  "author": "TomSssM",
+  "license": "ISC"
+}
